@@ -20,7 +20,7 @@ The `-d` flag runs the container in the background, allowing you to continue usi
 You can view information about running and stopped containers.
 - List all running containers:
   ```bash
-  docker container run -d nginx
+  docker container ls
   ```
 - List all containers, including stopped ones:
   ```bash
