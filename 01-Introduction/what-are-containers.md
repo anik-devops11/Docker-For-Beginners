@@ -21,6 +21,5 @@ Containers utilize the host operating system's kernel and isolate processes, net
 | Boot Time       | Seconds            | Minutes           |
 | Isolation       | Process-level      | Hardware-level    |
 
-![Containers-vs-Virtual-Machines](Images/Image1.png) 
-
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Image1.png" border="0">
 Learn more about containerization in Docker.
