@@ -16,6 +16,15 @@ This command pulls the `nginx` image from Docker Hub (if not already present) an
   docker container run -d nginx
   ```
 The `-d` flag runs the container in the background, allowing you to continue using the terminal.
+
+-Run a container with a specific name:
+  ```bash
+  docker run --name <container_name> <image_name>
+  ```
+  ```bash
+  docker run --name anik ubuntu
+  ```
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
 ## Listing Containers
 You can view information about running and stopped containers.
 - List all running containers:
@@ -27,3 +36,8 @@ You can view information about running and stopped containers.
   docker container ls -a
   ```
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
+
+- List all containers, including stopped ones:
+  ```bash
+  docker run --name <container_name> <image_name>
+  ```
