@@ -17,22 +17,28 @@ This command pulls the `nginx` image from Docker Hub (if not already present) an
   ```
 The `-d` flag runs the container in the background, allowing you to continue using the terminal.
 
--Run a container with a specific name:
+- Run a container with a specific name:
   ```bash
   docker run --name <container_name> <image_name>
   ```
   ```bash
   docker run --name anik ubuntu
   ```
+  ```bash
+  docker container run --name=<container_name> <image_name>
+  docker container run --name=anik ubuntu
+  ```
+
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/specific-name.png" border="0">
 
 -Run an interactive container
   ```bash
   docker run <image_name>
   ```
-    ```bash
+  ```bash
   docker run -it ubuntu
   ```
+
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/interactive.png" border="0">
 
 ## Listing Containers
