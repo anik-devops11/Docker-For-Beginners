@@ -83,3 +83,37 @@ Docker provides tools to inspect and interact with containers.
 
 Attach to a running container to view its real-time logs or output. This displays the live logs or output of the running `nginx` container.
 Press `Ctrl+c` or press `Ctrl+d` for exit.
+
+## Managing Container Lifecycle:
+Managing the lifecycle of a container is straightforward with Docker.
+
+- Stop a running container:
+    ```bash
+    docker container stop <container_id>
+    ```
+- Start a stopped container:
+    ```bash
+    docker container start <container_id>
+    ```
+- Remove a container:
+    ```bash
+    docker container rm <container_id>
+    ```
+- Force remove a container (even if running):
+    ```bash
+    docker container rm -f <container_id>
+    ```
+- Restart a running container:
+    ```bash
+    docker container restart <container_id>
+    ```
+- Pause a running container:
+    ```bash
+    docker container pause <container_id>
+    ```
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/pause.png" border="0">
+
+- Unpause a paused container:
+    ```bash
+    docker container unpause <container_id>
+    ```
