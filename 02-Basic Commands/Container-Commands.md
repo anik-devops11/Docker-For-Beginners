@@ -26,6 +26,12 @@ The `-d` flag runs the container in the background, allowing you to continue usi
   ```
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/specific-name.png" border="0">
 
+-Run an interactive container
+  ```bash
+  docker run -it ubuntu
+  ```
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/interactive.png" border="0">
+
 ## Listing Containers
 You can view information about running and stopped containers.
 - List all running containers:
