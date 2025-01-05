@@ -25,6 +25,7 @@ The `-d` flag runs the container in the background, allowing you to continue usi
   docker run --name anik ubuntu
   ```
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/specific-name.png" border="0">
+
 ## Listing Containers
 You can view information about running and stopped containers.
 - List all running containers:
