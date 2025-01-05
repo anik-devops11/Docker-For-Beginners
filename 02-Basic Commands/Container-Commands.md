@@ -56,8 +56,8 @@ You can view information about running and stopped containers.
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
   <br>
 
-## Inspect & Execut a Containers
-You can view Inspect & Execut a Containers.
+## Debugging Containers
+Docker provides tools to inspect and interact with containers.
 - Inspect a container:
   ```bash
   docker inspect <container_id>
@@ -69,5 +69,17 @@ You can view Inspect & Execut a Containers.
   ```bash
   docker exec fc2e537d9634 ls
   ```
-  <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/execute.png" border="0">
-  <br>
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/execute.png" border="0">
+<br>
+
+  - Attach to a running container:
+    ```bash
+    docker attach <container_id>
+    ```
+    ```bash
+    docker attach bf4169807009
+    ```
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/attach.png" border="0">
+
+Attach to a running container to view its real-time logs or output. This displays the live logs or output of the running `nginx` container.
+Press `Ctrl+c` or press `Ctrl+d` for exit.
