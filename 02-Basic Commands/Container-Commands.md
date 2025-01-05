@@ -29,6 +29,8 @@ The `-d` flag runs the container in the background, allowing you to continue usi
 -Run an interactive container
   ```bash
   docker run <image_name>
+  ```
+    ```bash
   docker run -it ubuntu
   ```
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/interactive.png" border="0">
