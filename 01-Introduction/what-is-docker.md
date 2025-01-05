@@ -2,6 +2,10 @@
 
 Docker is a platform designed to simplify the creation, deployment, and management of containers. It allows developers to package applications and their dependencies into containers that are portable and consistent.
 
+## Check Docker Version
+  ```
+    Docker -v
+  ```
 ## Key Components of Docker:
 - **Docker Client**: Interface to communicate with the Docker Daemon.
 - **Docker Daemon**: Manages containers, images, and networks.
@@ -15,3 +19,4 @@ Docker is a platform designed to simplify the creation, deployment, and manageme
 ```bash
 # Example: Running an NGINX container
 $ docker run nginx
+```

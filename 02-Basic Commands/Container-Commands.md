@@ -8,7 +8,7 @@ Docker containers are lightweight, portable, and can be run with a simple comman
 
 - Run a container with a specific image:
   ```bash
-  docker container run nginx
+  docker container run <image name>
   ```
 This command pulls the `nginx` image from Docker Hub (if not already present) and starts a new container.
 - Run a container in detached mode:
