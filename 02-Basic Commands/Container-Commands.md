@@ -9,6 +9,7 @@ Docker containers are lightweight, portable, and can be run with a simple comman
 - Run a container with a specific image:
   ```bash
   docker container run <image name>
+  docker container run nginx
   ```
 This command pulls the `nginx` image from Docker Hub (if not already present) and starts a new container.
 - Run a container in detached mode:
@@ -56,7 +57,8 @@ You can view information about running and stopped containers.
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
   <br>
 
-### Inspect & Execut a Containers
+## Inspect & Execut a Containers
+You can view Inspect & Execut a Containers.
 - Inspect a container:
   ```bash
   docker inspect <container_id>
