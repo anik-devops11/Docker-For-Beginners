@@ -21,6 +21,7 @@ Port mapping in Docker allows you to map a port from your host machine to a port
 ### 1. Using docker `ls`
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping1.png" border="0">
+
   - Look for the `PORTS` column in the output.
     - Note the PORTS column: `8080/tcp, 50000/tcp`
     - The host port is `8080.`
@@ -32,6 +33,7 @@ docker inspect <container_id>
 ```
   - In the output, look for the `Ports` section within the `NetworkSettings` field.
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping2.png" border="0">
+
 ## How to Map Ports in Docker
 
 ### Basic Syntax
@@ -45,6 +47,7 @@ docker run -p <host_port>:<container_port> <image_name>
 `image_name`: The Docker image to run.
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping3.png" border="0">
+
 `host_port`:  Host port is `9090`.
 
 `container_port`: Container port is `8080`.
