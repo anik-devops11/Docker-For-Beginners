@@ -1,7 +1,7 @@
 # Building Custom Docker Images 🚀
 
 This document walks you through creating a custom Docker image.
----
+
 
 ## **Project Structure** 📁
 
