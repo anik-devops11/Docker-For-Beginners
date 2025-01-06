@@ -72,14 +72,31 @@ Docker provides tools to inspect and interact with containers.
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/execute.png" border="0">
 <br>
 
-  - Attach to a running container:
-    ```bash
-    docker attach <container_id>
-    ```
-    ```bash
-    docker attach bf4169807009
-    ```
+- Attach to a running container:
+  ```bash
+  docker attach <container_id>
+  ```
+  ```bash
+  docker attach bf4169807009
+  ```
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/attach.png" border="0">
+
+- View logs for a running container:
+  ```
+  docker logs <container_id>
+  ```
+- View logs for a running container with timestamps:
+  ```
+  docker logs -t <container_id>
+  ```
+- View logs for a running container in real-time:
+  ```
+  docker logs -f <container_id>
+  ```
+- View logs for a running container in real-time with timestamps:
+  ```
+  docker logs -f -t <container_id>
+  ```
 
 Attach to a running container to view its real-time logs or output. This displays the live logs or output of the running `nginx` container.
 Press `Ctrl+c` or press `Ctrl+d` for exit.
