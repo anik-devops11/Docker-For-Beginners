@@ -1,23 +1,23 @@
-# Docker Port Mapping
+# Docker Port Mapping 🚀
 
 This document explains Docker's port mapping functionality, including how to expose and access applications running inside Docker containers.
 
 ---
 
-## What is Port Mapping?
-
+## What is Port Mapping? ⚓
+ 
 Port mapping in Docker allows you to map a port from your host machine to a port inside a Docker container. This enables applications inside the container to be accessed externally.
 
 ---
 
-## Why Use Port Mapping?
+## Why Use Port Mapping? 💡
 
 - **Access Applications**: Access containerized applications from your host or other devices.
 - **Avoid Port Conflicts**: Map container ports to available host ports to avoid conflicts.
 - **Run Multiple Containers**: Use different host ports to run multiple containers with the same internal ports.
 
 ---
-## How to know port number?
+## How to know port number? 🔍 
 ### 1. Using docker `ls`
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping1.png" border="0">
@@ -34,7 +34,7 @@ docker inspect <container_id>
   - In the output, look for the `Ports` section within the `NetworkSettings` field.
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping2.png" border="0">
 
-## How to Map Ports in Docker
+## How to Map Ports in Docker ⚙️
 
 ### Basic Syntax
 ```bash
@@ -63,7 +63,7 @@ http://localhost:9090
 http://<host_machine_ip>:8080
 ```
 
-## Additional Information
+## Additional Information ℹ️
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping4.png" border="0">
 

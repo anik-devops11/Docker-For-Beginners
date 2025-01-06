@@ -1,4 +1,4 @@
-# Container Commands 📄
+# Container Commands  📦
 
 This section covers essential commands to manage Docker containers effectively.
 
@@ -43,7 +43,7 @@ The `-d` flag runs the container in the background, allowing you to continue usi
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/interactive.png" border="0">
   <br>
   
-## Listing Containers 📝
+## Listing Containers  📃
 You can view information about running and stopped containers.
 - List all running containers:
   ```bash
@@ -56,7 +56,7 @@ You can view information about running and stopped containers.
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
   <br>
 
-## Debugging Containers 🛠️
+## Debugging Containers  🪲
 Docker provides tools to inspect and interact with containers.
 - Inspect a container:
   ```bash
@@ -101,7 +101,7 @@ Docker provides tools to inspect and interact with containers.
 Attach to a running container to view its real-time logs or output. This displays the live logs or output of the running `nginx` container.
 Press `Ctrl+c` or press `Ctrl+d` for exit.
 
-## Managing Container Lifecycle 🔗
+## Managing Container Lifecycle 🔄
 Managing the lifecycle of a container is straightforward with Docker.
 
 - Stop a running container:

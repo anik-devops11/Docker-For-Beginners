@@ -1,8 +1,8 @@
-# Container Commands 📄
+# Images Commands 🚀
 
 This section covers essential commands to manage Docker images effectively.
 
-## List and Inspect Images
+## List and Inspect Images 🔎
 
 - List all Docker images on your system:
   ```bash
@@ -16,7 +16,7 @@ This section covers essential commands to manage Docker images effectively.
   ```bash
   docker images -f "dangling=true"
   ```
-## Pull and Push Images
+## Pull and Push Images 📥
 
 - Pull an image from a registry (e.g., Docker Hub):
   ```bash
@@ -30,7 +30,7 @@ This section covers essential commands to manage Docker images effectively.
   ```
   docker push username/repo:tag
   ```
-## Remove Images
+## Remove Images 🗑️
 - Remove a specific image:
   ```
   docker rmi <image_name>
