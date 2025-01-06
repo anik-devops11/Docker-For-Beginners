@@ -3,7 +3,7 @@
 This document walks you through creating a custom Docker image.
 
 
-## **Project Structure** 📁
+## Project Structure 📁
 
 Create the following project structure:
 
@@ -13,11 +13,11 @@ custom-node-image/
 ├── Dockerfile
 ```
 
-### **Initialize the Project** ⚙️
+### Initialize the Project ⚙️
 
 Before writing your code, run the following commands in the `custom-node-image` directory:
 
-1. **Create a `package.json` file:**
+1. Create a `package.json` file:
 
    ```bash
    npm init -y
@@ -25,7 +25,7 @@ Before writing your code, run the following commands in the `custom-node-image` 
 
    This creates a `package.json` file to track your project dependencies.
 
-2. **Install Express.js:**
+2. Install `Express.js`:
 
    ```bash
    npm install express
@@ -33,7 +33,7 @@ Before writing your code, run the following commands in the `custom-node-image` 
 
    This command installs the `express` library and adds it as a dependency in the `package.json` file.
 
-### **File: server.js** 📄
+### File: `server.js` 📄
 
 This is the Node.js application that displays the custom message:
 
@@ -51,7 +51,7 @@ app.listen(PORT, () => console.log(`Server started on PORT: ${PORT}`));
 
 ---
 
-### **File: Dockerfile** 📄
+### File: `Dockerfile` 📄
 
 The `Dockerfile` contains instructions to build the custom Docker image:
 
@@ -77,9 +77,26 @@ CMD ["node", "server.js"]
 
 ---
 
-## **Building and Running the Docker Image** 🚀
+* `FROM`: Specifies the base image to use for the custom image.
+* `node:14`: An official Node.js image from Docker Hub with Node.js version 14 pre-installed. It also includes npm (Node Package Manager).
+* `WORKDIR`: Sets the working directory inside the container where all subsequent commands will be executed.
+* `/usr/src/app`: A commonly used directory path for application code in Docker containers.
+* `COPY`: Copies files from the host machine to the container's working directory.
+* `.`: Refers to the current directory on the host machine (where the Dockerfile is located).
+* `./`: Refers to the current directory in the container's working directory (/usr/src/app). This command copies your application files (e.g., `server.js`, `package.json`) into the container.
+* `RUN`: Executes a command in the container at build time.
+* `npm install`: Installs all dependencies specified in the `package.json` file and saves them in the `node_modules` directory within the container.
+* `EXPOSE`: Informs Docker that the application inside the container listens on port `8000`.
+* `CMD`: Specifies the command to execute when the container starts.
+* `["node", "server.js"]`: Runs the server.js file using Node.js.
 
-### **Step 1: Build the Docker Image** 🏗️
+This launches your Node.js application, making it accessible on port `8000` inside the container.
+
+------
+
+## Building and Running the Docker Image 🚀
+
+### Step 1: Build the Docker Image 🏗️
 
 Run the following command to build your Docker image:
 
@@ -91,7 +108,7 @@ docker build -t <image_name> .
 docker build -t custom-node-image .
 ```
 
-### **Step 2: Verify the Image** 🔍
+### Step 2: Verify the Image 🔍
 
 Check if the image was successfully created:
 
@@ -101,7 +118,7 @@ docker images
 
 You should see `custom-node-image` in the list.
 
-### **Step 3: Run the Docker Container** 🚢
+### Step 3: Run the Docker Container 🚢
 
 Start a container from the custom image:
 
@@ -113,7 +130,7 @@ docker run -it -p <host_port>:<container_port> <image_name>
 docker run -it -p 8000:8000 custom-node-image
 ```
 
-### **Step 4: Access the Application** 🌐
+### Step 4: Access the Application 🌐
 
 Open your browser and navigate to:
 
@@ -141,7 +158,7 @@ docker run -it -e PORT=[Set Custom Port No] -p <host_port>:<container_port> <ima
 docker run -it -e PORT=9090 -p 1000:9090 custom-node-image
 ```
 
-## **Summary**
+## Summary
 
 In this tutorial, you learned how to:
 
