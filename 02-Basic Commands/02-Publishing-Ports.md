@@ -63,7 +63,7 @@ http://localhost:9090
 http://<host_machine_ip>:8080
 ```
 
-## Additional Information ℹ️
+## Additional Tips 💡
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/port_mapping4.png" border="0">
 
