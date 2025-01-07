@@ -63,6 +63,7 @@ This section covers essential commands to manage Docker images effectively.
 ## Additional Tips 💡
 
 - If you want to give the image name and tag, you can use the `docker tag` command:
+
   ```
   docker tag <image_id> <give_image_name>
   ```
