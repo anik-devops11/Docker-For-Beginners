@@ -120,7 +120,15 @@ Managing the lifecycle of a container is straightforward with Docker.
     ```bash
     docker container rm -f <container_id>
     ```
-- Restart a running container:
+  - Deletes all containers:
+    ```
+    docker rm $(docker ps -aq)
+    ```
+  - Deletes all containers (stopped or running):
+    ```
+    docker rm -f $(docker ps -aq)
+    ```
+    - Restart a running container:
     ```bash
     docker container restart <container_id>
     ```

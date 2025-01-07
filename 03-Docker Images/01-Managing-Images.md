@@ -35,6 +35,10 @@ This section covers essential commands to manage Docker images effectively.
   ```
   docker rmi <image_name>
   ```
+- forcefully remove a specific image using its name or image ID:
+  ```
+  docker image rm -f <image-name-or-id>
+  ```
 - Remove all unused images:
   ```
   docker image prune
@@ -46,4 +50,12 @@ This section covers essential commands to manage Docker images effectively.
 - Force clean up everything, including stopped containers:
   ```
   docker system prune -a
+  ```
+- Forcefully remove images:
+  ```
+  docker image rm -f <image-name-or-id>
+  ```
+- Forcefully remove all images:
+  ```
+  docker image rm -f $(docker images -aq)
   ```
