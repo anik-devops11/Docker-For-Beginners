@@ -120,25 +120,25 @@ Managing the lifecycle of a container is straightforward with Docker.
     ```bash
     docker container rm -f <container_id>
     ```
-  - Deletes all containers:
-    ```
-    docker rm $(docker ps -aq)
-    ```
-  - Deletes all containers (stopped or running):
-    ```
-    docker rm -f $(docker ps -aq)
-    ```
-    - Restart a running container:
-    ```bash
-    docker container restart <container_id>
-    ```
+- Deletes all containers:
+  ```
+  docker rm $(docker ps -aq)
+  ```
+- Deletes all containers (stopped or running):
+  ```
+  docker rm -f $(docker ps -aq)
+  ```
+- Restart a running container:
+  ```bash
+  docker container restart <container_id>
+  ```
 - Pause a running container:
-    ```bash
-    docker container pause <container_id>
-    ```
+  ```bash
+  docker container pause <container_id>
+  ```
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/pause.png" border="0">
 
 - Unpause a paused container:
-    ```bash
-    docker container unpause <container_id>
-    ```
+  ```bash
+  docker container unpause <container_id>
+  ```
