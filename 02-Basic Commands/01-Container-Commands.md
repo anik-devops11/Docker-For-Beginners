@@ -2,6 +2,8 @@
 
 This section covers essential commands to manage Docker containers effectively.
 
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Docker-visual-selection.png" border="0">
+
 ## Running a Container 🏃
 
 Docker containers are lightweight, portable, and can be run with a simple command.
