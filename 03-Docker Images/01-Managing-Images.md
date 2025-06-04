@@ -2,7 +2,7 @@
 
 This section covers essential commands to manage Docker images effectively.
 ----
-<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Docker Images-visual-selection.png" border="0">
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Images Commands visual selection.png" border="0">
 
 ## List and Inspect Images 🔎
 
