@@ -78,6 +78,9 @@ Docker provides tools to inspect and interact with containers.
   ```bash
   docker attach <container_id>
   ```
+    ```bash
+  docker start -a <container_id>
+  ```
   ```bash
   docker attach bf4169807009
   ```
