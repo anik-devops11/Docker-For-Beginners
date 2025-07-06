@@ -59,7 +59,14 @@ You can view information about running and stopped containers.
   ```bash
   docker ps -aq
   ```
-  
+- Count containers in Linux/macOS/Git Bash/WSL:
+  ```bash
+  docker ps -aq | wc -l
+  ```
+- Count containers in Windows PowerShell:
+  ```bash
+  docker ps -aq | Measure-Object -Line
+  ```
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
   <br>
 
