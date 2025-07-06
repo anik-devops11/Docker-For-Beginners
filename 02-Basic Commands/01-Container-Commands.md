@@ -55,8 +55,10 @@ You can view information about running and stopped containers.
   ```bash
   docker container ls -a
   ```
-  - List all containers IDs only:
+- List all containers IDs only:
   ```bash
+  docker ps -aq
+  ```
   
   <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
   <br>
