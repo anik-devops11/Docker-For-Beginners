@@ -55,6 +55,9 @@ You can view information about running and stopped containers.
   ```bash
   docker container ls -a
   ```
+  <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
+  <br>
+
 - List all containers IDs only:
   ```bash
   docker ps -aq
@@ -67,9 +70,7 @@ You can view information about running and stopped containers.
   ```bash
   docker ps -aq | Measure-Object -Line
   ```
-  <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/All-Container.png" border="0">
-  <br>
-
+  
 ## Debugging Containers  🪲
 Docker provides tools to inspect and interact with containers.
 - Inspect a container:
