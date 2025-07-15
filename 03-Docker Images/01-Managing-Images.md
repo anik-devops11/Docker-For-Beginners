@@ -80,7 +80,7 @@ This section covers essential commands to manage Docker images effectively.
   ```
   Example:
   ```
-  docker image load -i my_image.tar
+  docker image save nginx -o my_image.tar
   ```
 
 - Load image from a file:
