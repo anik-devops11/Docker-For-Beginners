@@ -73,9 +73,19 @@ This section covers essential commands to manage Docker images effectively.
   ```
   docker tag 72f6e2460071 my_image:v1
   ```
+- Save image as a file
+
+  ```
+  docker image save <image_name> -o <file_name>.tar
+  ```
+  Example:
+  ```
+  docker image load -i my_image.tar
+  ```
+
 - Load image from a file:
 
-  ```bash
+  ```
   docker image load -i <file_name>.tar
   ```
   Example:
