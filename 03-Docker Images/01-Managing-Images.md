@@ -73,3 +73,7 @@ This section covers essential commands to manage Docker images effectively.
   ```
   docker tag 72f6e2460071 my_image:v1
   ```
+- Load image from a file:
+
+  ```bash
+  docker image load -i <file_name>.tar
