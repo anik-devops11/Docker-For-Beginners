@@ -77,3 +77,9 @@ This section covers essential commands to manage Docker images effectively.
 
   ```bash
   docker image load -i <file_name>.tar
+
+Example:
+  ```
+  docker image load -i my_image.tar
+  ```
+- 
