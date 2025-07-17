@@ -4,15 +4,6 @@ A **Docker Image Registry** is a storage and distribution system for Docker imag
 
 ---
 
-## 🗃️ What is a Docker Image Registry?
-
-A **Docker registry** is a place to **store and distribute Docker images**. You can:
-- Share images between teams or machines
-- Use them in CI/CD pipelines
-- Version and manage images easily
-
----
-
 ## 🏛️ Types of Registries
 
 | Type            | Examples                          | Use Case                             |
