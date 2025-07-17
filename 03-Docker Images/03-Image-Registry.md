@@ -2,6 +2,7 @@
 
 A **Docker Image Registry** is a storage and distribution system for Docker images. It allows you to **push**, **pull**, and **manage Docker images** in a centralized way.
 
+<img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Image Registery.png" border="0">
 ---
 
 ## 🏛️ Types of Registries
