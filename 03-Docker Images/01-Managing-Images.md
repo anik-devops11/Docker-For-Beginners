@@ -20,7 +20,8 @@ This section covers essential commands to manage Docker images effectively.
   ```
 - Shows how much disk space Docker is using on your system
   ```
-  
+  docker system df
+  ```
 ## Pull and Push Images 📥
 
 - Pull an image from a registry (e.g., Docker Hub):
