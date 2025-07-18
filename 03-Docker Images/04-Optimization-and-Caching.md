@@ -3,6 +3,7 @@
 Understanding how to **optimize** Docker images and how **caching** works is important for building faster, smaller, and more efficient container images.
 
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/Optimization and Caching.png" border="0">
+
 ---
 
 ## ✅ What is Docker Optimization?
