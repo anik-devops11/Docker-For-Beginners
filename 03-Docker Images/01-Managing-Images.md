@@ -18,6 +18,9 @@ This section covers essential commands to manage Docker images effectively.
   ```bash
   docker images -f "dangling=true"
   ```
+- Shows how much disk space Docker is using on your system
+  ```
+  
 ## Pull and Push Images 📥
 
 - Pull an image from a registry (e.g., Docker Hub):
