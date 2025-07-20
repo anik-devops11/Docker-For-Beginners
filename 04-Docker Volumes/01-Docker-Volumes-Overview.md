@@ -43,6 +43,12 @@ docker run -v /app/data busybox
 
 **Create Volume:**
 ```
+docker volume create <Volume_Name>
+```
+
+Example
+
+```
 docker volume create mydata
 ```
 **Use Volume:**
