@@ -47,4 +47,5 @@ This stops and exits the container, but **the volume still exists.**
 docker volume ls
 ```
 📌 Look for a volume with a random name like:
+
 <img src="https://github.com/anik-devops11/Docker-For-Beginners/blob/main/Images/volume list.png" border="0">
