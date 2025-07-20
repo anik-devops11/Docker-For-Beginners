@@ -39,7 +39,7 @@ Explanation:
 | `-d`                                  | Detached mode (runs in background)           |
 | `--name my-nginx`                     | Assigns a custom name to the container       |
 | `-p 9090:80`                          | Maps host port `9090` to container port `80` |
-| `-v nginx-data:/usr/share/nginx/html` | It’s the default directory inside the Nginx container where it looks for website files    |
+| `-v nginx-data:/usr/share/nginx/html` | 	Mounts the Docker **named volume** `nginx-data` to the folder where Nginx expects to find web content |
 | `nginx`                               | Uses the Nginx image                         |
 
 🔗 Visit: `http://localhost:9090`
