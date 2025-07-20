@@ -184,7 +184,7 @@ Exit MySQL:
 ```
 exit
 ```
-### 🛑 7. Stop and Remove the Container (Keep Volume)r
+### 🛑 7. Stop and Remove the Container (Keep Volume)
 
 ```
 docker stop my-mysql
@@ -201,10 +201,10 @@ docker run -d `
 -v mysql-data:/var/lib/mysql `
 -p 3306:3306 `
 mysql:8
-
 ```
 You didn’t need to recreate the database — it’s still there!<br>
 Use docker exec -it `my-mysql mysql -uroot -p` to check.
+
 ```
 USE testdb;
 SELECT * FROM users;
