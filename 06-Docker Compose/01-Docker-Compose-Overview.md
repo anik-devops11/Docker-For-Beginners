@@ -25,5 +25,7 @@ Instead of running multiple `docker run` commands for each container, you use **
 | `docker compose down -v` | Also removes named volumes (⚠️ Data loss) |
 | `docker compose ps`      | Lists running services                    |
 | `docker compose logs`    | Shows service logs                        |
+| `docker compose build`   | Build images (if Dockerfile used)         |
+| `docker compose exec <service> <command>` | Run commands inside a container |
 
 ---
